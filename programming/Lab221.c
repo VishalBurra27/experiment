@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main () {
+	int var = 5;
+	int i = var ;
+	while (var >0) {
+		while (i > 0) {
+			printf("*");
+		    i=i-1;
+		}	
+		printf("\n");
+		var = var-1;
+	    i = var;
+	}
+	
+	return 0;
+}

@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+	int n;
+	printf("enter a 3 digit : ");
+	scanf("%d",&n);
+	int h,t,o;
+	
+	h=n/100;
+	o=n%10;
+	t=(n/10)%10;
+	printf("%d",h+t+o);
+	
+	return 0;
+}
+
+	
